@@ -5,6 +5,8 @@ body {
     color: white;
     background-color: orangered;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 .logo {
     font-size: 30px;
