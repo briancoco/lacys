@@ -14,9 +14,13 @@ body {
     font-weight: bold;
     margin-left: 30px;
     margin-right: 30px;
+    text-decoration: none;
+    color: white;
 }
 .projects {
     margin-right: 15px;
+    text-decoration: none;
+    color: white;
 }
 .stage {
     height: 500px;
@@ -43,4 +47,37 @@ body {
 .row2 img {
     height: 400px;
     width: auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gemini {
+    display: flex;
+    color: white;
+    gap: 100px;
+    margin: 50px;
+
+}
+.geminiart {
+    height: 500px;
+    width: auto;
+}
+.description {
+    width: 600px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.tracks 
+.title {
+    text-align: center;
+    font-size: 20px;
+}
+li {
+    margin: 55px;
 }
